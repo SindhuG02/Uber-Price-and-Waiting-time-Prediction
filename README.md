@@ -40,14 +40,20 @@ testModel.py  ->
 
                 once you select the model, we will be saving the model offline. (it will be stored in the folder level).
 
-getPic.py  -> 
+ getPic.py  -> 
+ 
                 it is used to display source and destination picture in streamlit application.
 
-predictData.py  ->  
+ predictData.py  ->  
+ 
                 for predicting the Price and waiting time we make use of this file.
                 this file is used in the UBER_PAGE.py and TimeDetails.py
-main.py  -> 
+ 
+ main.py  -> 
+ 
             Main Streamlit file.
+
+            
             -> in this we have 3 pages [UBER_PAGE,TimeDetails,visualization]
             -> UBER_PAGE -> based the inputs (source,destination and time) predicts the price and also recommendation for next 2 sequency on 1 hours difference
             -> visualization -> it provides thes Bar & line graph for waiting time based on time and the Price details based on start time.
